@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Auto Page Refresher
-// @icon         http://www.refreshthis.com/favicon.ico
-// @namespace    http://tampermonkey.net/
-// @version      2.0.0
+// @icon         https://github.com/Acidooo/Auto-Page-Refresher/raw/master/icon.png
+// @namespace    https://github.com/Acidooo/Auto-Page-Refresher
+// @version      2.0.2
 // @description  refreshes pages after a certain time
 // @author       Acido
 // @include      *
-// @grant        none
+// @updateURL    https://github.com/Acidooo/Auto-Page-Refresher/raw/master/Auto%20Page%20Refresher.user.js
+// @downloadURL  https://github.com/Acidooo/Auto-Page-Refresher/raw/master/Auto%20Page%20Refresher.user.js
 // ==/UserScript==
 
 const reloadList = ["steamgifts.com",
