@@ -10,26 +10,17 @@
 // @downloadURL  https://github.com/Acidooo/Auto-Page-Refresher/raw/master/Auto%20Page%20Refresher.user.js
 // ==/UserScript==
 
-const reloadList = ["steamgifts.com",
-                    "orlygift.com/giveaway",
-                    "alienwarearena.com/member/acidooo-a",
-                    "reddit.com/r/udemyfreebies/",
-                    "https://www.yemeksepeti.com/konya",
-                    "https://www.twitch.tv/directory/following/live",
-                    "http://obis.ktun.edu.tr/Ogrenci/SonYilNotlari",
-                    "http://obis2.ktun.edu.tr/Ogrenci/SonYilNotlari",
-                    "http://obis3.ktun.edu.tr/Ogrenci/SonYilNotlari",
-                    "http://obis2.ktun.edu.tr/DersKaydi/Index",
-                    "https://lms.ktun.edu.tr",
-                    "https://www.eba.gov.tr"
+/*  You can add any url to the list   */ 
+var reloadList = ["www.google.com",
+                    "orlygift.com",
+                    "github.com",
+                    "mail.google.com"
                    ];
 
 
 var seconds = 180; // You can change this value
 var waitingTime = seconds*1000;
 var currentPageUrl;
-
-
 
 setTimeout(function () {
 
@@ -44,51 +35,3 @@ setTimeout(function () {
     }
 
 }, waitingTime);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// for (var i=0;i<1;i++){
-//     console.log("Sayfa URL: " + currentPageUrl);
-//     console.log("document referrer: " + document.referrer);
-//     console.log("document.location.href: " + document.location.href);
-//     console.log("window.location: " + window.location);
-//     console.log("window.parent.location: " + window.parent.location);
-
-// }
-
-// function isListed(url){
-//     return reloadList.some( x => url.includes(x) );
-// }
-
-// @match        *://*.steamgifts.com
-// @match        *://*.twitch.tv/directory/following*
-// @match        *://*.orlygift.com/giveaway
-// @match        *://*.alienwarearena.com/member/acidooo-a
-// @match        *://*.reddit.com/r/udemyfreebies/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
