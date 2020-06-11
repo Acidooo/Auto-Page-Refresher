@@ -1,6 +1,6 @@
 # Auto Page Refresher
 
- Refreshes web pages automatically
+ Simple script in order to refresh web pages automatically. 
 
 ## Installation
 
