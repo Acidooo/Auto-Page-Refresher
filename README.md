@@ -5,7 +5,8 @@
 
 ## Installation (Userscript)
 
-1. To install the userscript, you must install Tampermonkey.
+To install the userscript, you must install Tampermonkey.<br/>
+
 <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">
 	<img src="https://raw.githubusercontent.com/rafaelgomesxyz/esgst/main/assets/chrome-badge.png" alt="Chrome">
 <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">
@@ -13,6 +14,7 @@
 <br/>
 
 
-Then [click here](https://github.com/Acidooo/Auto-Page-Refresher/raw/master/Auto%20Page%20Refresher.user.js) and you should be prompted to install Auto Page Refresher.
+Then [click here](https://github.com/Acidooo/Auto-Page-Refresher/raw/master/Auto%20Page%20Refresher.user.js) and you should be prompted to install the script.
+
 
 
